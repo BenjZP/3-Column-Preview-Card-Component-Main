@@ -1,0 +1,153 @@
+ *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    background-color: #ffff;
+    display: block;
+}
+
+/*Main*/
+main {
+    width: 85%;
+    margin: 0 auto;
+    padding: 3rem 0;
+    display: grid;
+}
+
+
+/*Typography*/
+section {
+    display: block;
+    box-sizing: border-box;
+    padding: 3rem;
+}
+
+header{
+    color:hsla(0, 0%, 100%, 0.75);
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 2.25rem;
+    margin-top: 1rem
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    margin-top: 1.5em;
+}
+
+img {
+    width: 60px;
+}
+
+/*Back-grounds*/
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+}
+
+/* Buttons */
+button {
+    text-decoration: none;
+    font-family: 'Lexend Deca', sans-serif;
+    border-radius: 100px;
+    padding: 10px 15px;
+    display: inline-block;
+    border: 2px solid transparent;
+    margin-top: 1.5rem;
+    color: hsl(0, 0%, 95%);
+}
+
+.btn-sedans {
+    color: hsl(31, 77%, 52%);
+  }
+  
+  .btn-sedans:hover,
+  .btn-sedans:focus,
+  .btn-sedans:active {
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+}
+
+.btn-suvs {
+    color: hsl(184, 100%, 22%);
+  }
+  
+  .btn-suvs:hover,
+  .btn-suvs:focus,
+  .btn-suvs:active {
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+}
+
+.btn-luxury {
+    color: hsl(179, 100%, 13%);
+  }
+  
+  .btn-luxury:hover,
+  .btn-luxury:focus,
+  .btn-luxury:active {
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+}
+
+/*Attribution*/
+footer {
+    text-align: center;
+    font-size: 15px;
+}
+
+a {
+    color: hsl(228, 45%, 44%);
+}
+
+/*Responsiveness*/
+main section:first-child {
+    border-radius: 10px 10px 0 0;
+}
+  
+main section:last-child {
+    border-radius: 0 0 10px 10px;
+}
+
+@media (min-width: 775px) {
+    main {
+      grid-template-columns: repeat(3, 1fr);
+      max-width: 960px;
+    }
+  
+    section {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 100%;
+    }
+  
+    button {
+      align-self: flex-start;
+      margin-top: 4rem;
+    }
+  
+    main section:first-child {
+      border-radius: 10px 0 0 10px;
+    }
+  
+    main section:last-child {
+      border-radius: 0 10px 10px 0;
+    }
+  }
