@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here]()
+- Solution URL: [https://www.frontendmentor.io/solutions/html-and-css-grid-8-YHmbewl](https://www.frontendmentor.io/solutions/html-and-css-grid-8-YHmbewl)
 - Live Site URL: [https://benjzp.github.io/3-Column-Preview-Card-Component-Main/](https://benjzp.github.io/3-Column-Preview-Card-Component-Main/)
 
 ## My process
