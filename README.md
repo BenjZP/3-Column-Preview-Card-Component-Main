@@ -60,7 +60,7 @@ Doing this is a difficult one for me since I only knew a few CSS responsive prop
 ## Author
 
 - Frontend Mentor - [BenjZP](https://www.frontendmentor.io/profile/BenjZP)
-- Twitter - [@url_benjjj](https://twitter.com/url_benjjj?s=09)
+- Twitter - [@heybenjjj](https://twitter.com/heybenjjj?s=09)
 
 
 ## Acknowledgments
